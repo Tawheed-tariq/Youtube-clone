@@ -61,7 +61,7 @@
   text-decoration: none;
   color: gray;
 }
-@media (max-width:509px){
+/* @media (max-width:509px){
   .main-body{
     grid-template-columns: 1fr 1fr;
   }
@@ -76,7 +76,7 @@
   .video-body{
     grid-template-rows: 140px 1fr;
   }
-}
+} */
 @media (min-width:450px) and (max-width:700px){
   .main-body{
     grid-template-columns: 1fr;
