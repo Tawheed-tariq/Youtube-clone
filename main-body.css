@@ -77,6 +77,14 @@
     grid-template-rows: 140px 1fr;
   }
 }
+@media (min-width:450px) and (max-width:700px){
+  .main-body{
+    grid-template-columns: 1fr;
+  }
+  .video-body{
+    grid-template-rows: 210px 1fr;
+  }
+}
 @media (min-width:701px) and (max-width:900px){
   .main-body{
     grid-template-columns: 1fr 1fr;
